@@ -1,12 +1,27 @@
 body{
-    background-color:#8ce0c7;
+    background: linear-gradient(to right, #00ffff, #ec38bc, #820cd1, #00ffff);
 }
 
-.fondo{
-    background-color:#ffffff;
-} 
+ .name{
+    font-size: 40pt;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+ }
 
-.color{
-    color:#000000;
+ /*Para la descripción página inicio*/
+.descbrev{
+    text-align: center;
 }
 
+/*Para el logotipo*/
+.logo{
+    display: block;
+    margin: auto;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #ff8ae0, #00ffff, #3852e6, #bf5fff);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
