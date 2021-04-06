@@ -1,44 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="css/estilos.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/Icono.png">
-    <title>Chile Real Gamers</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="css/estilos.css" type="text/css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+      <link rel="shortcut icon" href="img/Icono.png">
+      <title>Chile Real Gamers</title>
+  </head>
+  <body>
+    <!--Barra de navegación-->
     <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light baralign">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="inicio.html">
-            <img src="img/Icono.png" width="70" height="60">
-          </a>
-          <div class="collapse navbar-collapse"  id="opciones"> 
-            <ul class="navbar-nav" style="font-size: 13pt; font-family: 'Orbitron', sans-serif;">
-              <li class="nav-item">
-                <a class="nav-link" href="inicio.html"><img src="img/blue.png" width="33" height="33" alt="">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quienes-somos.html"><img src="img/pink.png" width="33" height="33" alt="">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><img src="img/Pac-man.png" width="33" height="33" alt="">Galería de Fotos</a>
-              </li>         
-            </ul>
-          </div>
-        </nav>
-        <!--Footer-->
-    <footer><hr><p>Página web creada por: Bastián Alvarado, Yanara Hidalgo, Marco Illescas. @Copyrigth Derechos reservados.</p>
-        <div><a href="#"><img src="img/face.png" width="70px" alt="Facebook"></a>
-            <a href="#"><img src="img/insta.png" width="70px" alt="Instagram"></a>
-            <a href="https://github.com/BastyRioT/-Experiencia1_AlvaradoHidalgoIllescas_004D" target="_blank"><img src="img/github.png" width="70px" alt="GitHub"></a></div>
-</footer>        
-</body>
+      <!--Menú hamburguesa-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <!--Logo-->
+      <a class="navbar-brand" href="inicio.html">
+        <img src="img/Icono.png" width="70" height="60">
+      </a>
+
+      <!--Opciones barra navegación-->
+      <div class="collapse navbar-collapse"  id="opciones"> 
+        <ul class="navbar-nav" style="font-size: 13pt; font-family: 'Orbitron', sans-serif;">
+          <li class="nav-item">
+            <a class="nav-link" href="inicio.html"><img src="img/blue.png" width="33" height="33" alt="">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienes-somos.html"><img src="img/pink.png" width="33" height="33" alt="">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/Pac-man.png" width="33" height="33" alt="">Galería de Fotos</a>
+          </li>         
+        </ul>
+      </div>
+    </nav>
+
+    <!--Imagen de fondo-->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size: 4em;">Quienes Somos</h1>
+      </div>
+    </div><br>
+
+
+    <fieldset>
+      <!--Texto-->
+      <div class="intro"><br>
+        <h3 class="descbrev">Nuestro objetivo, es crear una sitio web en el cual la escena Esports llegué a más personas en Chile, por eso creamos
+           “Chile Real Gamers”, un sitio donde podrás ver,
+           organizar y participar en escenas competitivas de tu juego favorito.</h3><br><br>
+      </div>
+            
+      <!--Video-->
+      <div class="video">
+        <p>Para más informacion haz click abajo <br><img src="img/click.png " width="35" height="35"alt=""></p>
+        <a href="https://www.youtube.com/watch?v=U2g902sCOiY" target="_bank">
+          <img src="img/unnamed.png" width="110" height="110"alt=""></a> 
+      </div>
+    </fieldset>
+
+ 
+
+
+  <!--Javascript-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+  <!--Footer-->
+  <footer><hr><p>Página web creada por: Bastián Alvarado, Yanara Hidalgo, Marco Illescas. @Copyrigth Derechos reservados.</p>
+    <div><a href="#"><img src="img/face.png" width="70px" alt="Facebook"></a>
+         <a href="#"><img src="img/insta.png" width="70px" alt="Instagram"></a>
+         <a href="https://github.com/BastyRioT/-Experiencia1_AlvaradoHidalgoIllescas_004D" target="_blank"><img src="img/github.png" width="70px" alt="GitHub"></a></div>
+  </footer>         
+  </body>
 </html>
