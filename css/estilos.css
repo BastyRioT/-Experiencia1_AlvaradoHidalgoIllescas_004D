@@ -1,6 +1,20 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(../fonts/Orbitron-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Gaming;
+    src: url(../fonts/Ode\ to\ Idle\ Gaming.otf);
+}
+
+@font-face {
+    font-family: Gamer;
+    src: url(../fonts/Minercraftory.ttf);
+}
+
 body{
-    background: linear-gradient(to right, #00ffff, #ec38bc, #820cd1, #00ffff);
-    height: 100%;
+    background: linear-gradient(to right, #acf7f7, #ee80d1, #9f75bb, #acf7f7);
 }
 
 html {
@@ -11,21 +25,13 @@ footer{
     text-align: center;
 }
 
+.navbar-nav{
+    font-size: 13pt;
+    font-family: Orbitron;
+}
+
 /*Inicio*/
 
-    /*h3*/
-    .name{
-        font-size: 40pt;
-        text-align: center;
-        font-family: 'Orbitron', sans-serif;
-    }
-
-    /*Para la descripción página inicio*/
-    .descbrev{
-        text-align: center;
-    }
-
-    /*Para el logotipo*/
     .logo{
         display: block;
         margin: auto;
@@ -34,10 +40,21 @@ footer{
         border-image-slice: 1;
     }
 
+    .t4 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 68%;
+      }
+
+      .t5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+      }
+
 /*Quienes Somos*/
-
-
-    /* Imágen */
     .hero-image {
         background-image: url("../img/t2.jpg");
         height: 50%;
@@ -46,8 +63,7 @@ footer{
         background-size: cover;
         position: relative;
     }
-  
-    /* Texto */
+    
     .hero-text {
         text-align: center;
         position: absolute;
@@ -58,22 +74,71 @@ footer{
         font-family:'Orbitron', sans-serif;
     }    
 
-
-    /*Para el boton y enlace del video*/
     .video   {
         text-align: center;
         color: #000000;
     }
-    .video input{
-        background-color:  seagreen;
-        border: 1px solid darkgray;
-        color: white;
-        cursor: pointer;
-        border-radius: 5px;
-        box-shadow: 0px 2px 2px black;
-    }
-    .video input:hover{
-        background-color: lightgreen;
-    }
+
+/*Galería Fotografica*/
     
-    
+    .container.gallery-container {
+        background-color: rgb(255, 255, 255);
+        color: #35373a;
+        min-height: 100vh;
+        border-radius: 20px;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+    }
+
+    .gallery-container h1 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: 'Droid Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .gallery-container p.page-description {
+        text-align: center;
+        max-width: 800px;
+        margin: 25px auto;
+        color: #888;
+        font-size: 18px;
+    }
+
+    .tz-gallery {
+        padding: 40px;
+    }
+
+    .tz-gallery .lightbox img {
+        width: 100%;
+        margin-bottom: 30px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+
+
+    .tz-gallery .lightbox img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    }
+
+    .tz-gallery img {
+        border-radius: 4px;
+    }
+
+    .baguetteBox-button {
+        background-color: transparent !important;
+    }
+
+
+    @media(max-width: 768px) {
+        body {
+            padding: 0;
+        }
+
+        .container.gallery-container {
+            border-radius: 0;
+        }
+    }
+
+ 
+        
